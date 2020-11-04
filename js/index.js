@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 
+   
+
     const renderBookShowPage = bookObj => {
         // debugger
         showPanel.innerHTML = ""
@@ -94,9 +96,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 renderBookShowPage(bookObj)
             })
         })
-
-
-
         showPanel.append(thumbnail,bookTitle,bookSubtitle,bookAuthor,bookDescription,bookUsers,likeButton)
 
     }
